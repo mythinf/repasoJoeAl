@@ -1,0 +1,40 @@
+innerHeight 
+662
+
+scroll (100,300)
+ = scrollTo(100,300) ---> desplaza la barra
+scorllBy(100,300)----> ejecuta desde la posicion en la que se encuentra
+los hijos de window : alert - prompt
+navigator.appCodeName
+ "Mozilla"---> me da caracteristicas de de la version del navagador 
+navigator.appName
+"Netscape"------> me da le motor de navegación
+history.back
+history.forward
+history.go
+
+-----------------------------------
+  accediendo a elementos del DOM
+
+-document.firstElementChild.firstElementChild
+<head>
+-document.firstElementChild.lastElementChild
+<body>
+-document.firstElementChild.lastElementChild.firstElementChild
+<ul>
+-document.body.firstElementChild
+<ul>
+-document.getElementsByTagName('ul');
+[ul]
+-document.querySelector('ul');
+<ul>...</ul>
+
+var ul = document.querySelector('ul');
+ ul
+ <ul>...</ul>
+
+ul.lastElementChild.previousElementSibling
+<il>item 3</il> ...( hay un total de 4 item)
+
+
+ 
